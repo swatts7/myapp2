@@ -1,7 +1,6 @@
 import pandas as pd
 import requests
 from modular_scraper import scrape_page_to_text
-from openai_secret_manager import get_openai_api_key
 import logging
 import streamlit as st
 
