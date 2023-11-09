@@ -87,7 +87,7 @@ def send_openai_request(conversation, api_key):
         'max_tokens': 200  # Adjust as needed
     }
     try:
-        response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=data, timeout=10)
+        response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=data, timeout=20)
         if response.status_code == 200:
             api_response = response.json()
             # Extract the assistant's reply
