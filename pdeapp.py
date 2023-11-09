@@ -3,7 +3,7 @@ import pandas as pd
 from main_processor import process_records
 
 def main():
-    st.title("URL Data Programmatic Data Extraction Application")
+    st.title("Programmatic Data Extraction Application")
 
     instructions_placeholder = st.empty()
     instructions_placeholder.info(
