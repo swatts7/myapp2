@@ -76,10 +76,7 @@ def process_records(records_df, queries_df, progress_bar, api_key):
     record_info_placeholder.empty()
     return pd.DataFrame(results)
 
-
-
 def send_openai_request(conversation, api_key):
-    api_key = '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'  # Hardcoded API key
     headers = {
         'Authorization': f'Bearer {api_key}'
     }
